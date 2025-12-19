@@ -6,6 +6,7 @@ description: >-
   EJSON extends JSON defining how all BSON types should be represented in JSON.
 
 version: 0.4.2
+publish_to: none
 repository: https://github.com/realm/realm-dart/ejson/packages/ejson_lint
 
 environment:
@@ -14,7 +15,8 @@ environment:
 dependencies:
   analyzer: ^8.0.0
   custom_lint_builder: ^0.8.1
-  ejson_analyzer: ^0.4.2
+  ejson_analyzer: 
+    path: ../ejson_analyzer
 
 dev_dependencies:
   lints: ^6.0.0
